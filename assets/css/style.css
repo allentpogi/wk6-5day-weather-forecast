@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    justify-content: center;
+}
+
+header h1 {
+    padding: 0.5rem;
+    margin: 0.75rem 0.75rem 1rem 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250%;
+    width: 35%;
+    vertical-align: middle;
+}
+
+main {
+    display: flex;
+}
+
+.search-area {
+    width: 20%
+}
+
+.search-history {
+    display: flex;
+    flex-direction: column;
+
+}
+    
