@@ -1,36 +1,187 @@
 * {
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
+p {
+    font-size: 90%;
+    padding: 0.25rem;
+}
+
+button {
+    margin-top: 0.25rem;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    height: 1.5rem;
+    font-size: 100%;
+}
+
+button:hover {
+    background-color: #0c5e0e;
+    cursor: pointer;
+}
+
+#search-button {
+    font-weight: bold;
+    height: 1.75rem;
+}
 
 header {
     display: flex;
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
     justify-content: center;
+    margin: 0 0 1rem 0;
 }
 
 header h1 {
     padding: 0.5rem;
-    margin: 0.75rem 0.75rem 1rem 1rem;
     color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 250%;
-    width: 35%;
     vertical-align: middle;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 1px 1px 5px rgba(146, 161, 176, 0.3);
+    margin: 0.75rem 0 1rem 0;
+    /* align-items: center; */
+    /* min-height: 100vh; */
 }
 
 .search-area {
-    width: 20%
+    box-shadow: 0 1px 4px rgba(10, 68, 97, 0.3);
+    margin: 0.75rem 0.5rem 1rem 1rem;
 }
 
+.search-city {
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem 0.75rem 1rem 1rem;
+}
 .search-history {
     display: flex;
     flex-direction: column;
+    margin: 0.75rem 0.75rem 1rem 1rem;
+}
+
+
+h2, h3, h4, h5 {
+    /* padding: 0.5rem; */
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    vertical-align: middle;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin: 1rem;
+}
+
+h4, h5 {
+    padding-top: 0.5rem;
+}
+
+h5 {
+    margin: 0.75rem 0.75rem 0rem 0.75rem;
 
 }
+
+h6 {
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    vertical-align: middle;
+}
+
+/* #weather-container {
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    margin: 0.75rem 0.75rem 1rem 0;
+} */
+
+
+
+.weather-today {
+    margin: 0.75rem 0.75rem 1rem 0.5rem;
+    box-shadow: 0 1px 4px rgba(10, 68, 97, 0.3);
+}
+
+
+#weather-today-card {
+    margin: 0.75rem 0.75rem 1rem 1rem;
+
+
+}
+
+
+.weather-5day {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#weather-card {
+
+    background-color: rgba(182, 174, 219, 0.5);
+    box-shadow: 0 1px 4px rgba(45, 176, 241, 0.3);
+    margin: 0.75rem 0.25rem 0.75rem 0.25rem;
+}
+
+.five-day-container {
+    margin: 0.75rem 0.75rem 1rem 0.5rem;
+    box-shadow: 0 1px 4px rgba(10, 68, 97, 0.3);
+
+}
+
+#weather-div-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     
+}
+
+#weather-div-img {
+    width:  110px;
+    height: 110px;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(10, 68, 97, 0.3);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-right: 0.5rem;
+    background-color: rgb(215, 212, 216);
+}
+
+#weather-div-img img {
+    width: 100%;
+    height: auto;
+}
+
+#weather-div-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    width:  250px;
+    height: 110px;
+    font-size: 120%;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(10, 68, 97, 0.3);
+    text-indent: 0.5rem;
+    background-color: rgb(179, 235, 147);
+}
+
+/* @media screen and (max-width: 1185px) {
+    .search-area {
+        width: 100%;
+    }
+} */
