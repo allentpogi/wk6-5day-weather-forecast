@@ -43,11 +43,11 @@ Navigate to https://allentpogi.github.io/wk6-5day-weather-forecast/ to visit the
 
 The website looks like this:
 
-![weather forecast image](./assets/img/Project6.jpg)
+![weather forecast image](./assets/img/Project6.JPG)
 
 ## Credits
 
-Thanks for Jack and Sid for being awesome on week 2 as always!
+Thanks for Jack and Sid for being awesome on week 6 as always!
 
 ## License
 
