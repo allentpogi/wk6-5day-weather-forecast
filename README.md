@@ -17,7 +17,9 @@ This is my submission for the Week 6 challenge.
 
 This project is using my own API key so that I can use the OpenWeather API to fetch the weather.
 
-When deploying, ensure that the API key is a valid API key for OpenWeather API
+When deploying, ensure that the API key is a valid API key for OpenWeather API.
+
+To visit the deployed application, navigate to this URL: https://allentpogi.github.io/wk6-5day-weather-forecast/. 
 
 ## Features
 
